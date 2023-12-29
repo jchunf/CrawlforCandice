@@ -4,17 +4,17 @@ import time
 import requests
 
 cookie = {
-    "csrftoken": "w7k4ei6sy9Pyiw1GIyRswihqkrFKVMHi",
-    "shbts": "1696322955\05461001153455\0541727858955:01f7e3404b98b95811b962ef5184c036bdbc31d549fe4088ed64c74c361b0d381f3580ee",
-    "datr": "gdUbZVm20u4XK8r04bnQRHAp",
-    "dpr": "2",
-    "ds_user_id": "61001153455",
-    "ig_did": '8A469649-9F3A-484B-A5A4-2C13DBA7D72E',
-    "ig_nrcb": '1',
-    "mid": 'ZRvVgwAEAAGkoMizmvqbb85nZZc4',
-    "rur": "CCO\05461001153455\0541727860229:01f75cf88f8b111958bfd2cbe0dda0223488d630649993f4155dcece8c116394f5ed2a94",
-    'sessionid': '61001153455%3A9rbNrKNCB4yq8y%3A1%3AAYdOy8DARTEuRhQ4JLex09NfAB4p1THO7sb0nnyYcw',
-    'shbid': "6417\05461001153455\0541727858955:01f7afab8e6bf615bafae54d031cd8c2da85699d388b8283fb58b55be1fb563d24ede9a8",
+    "csrftoken":	"Da8R2jAzB1so8eElogRqTkfYa41ZdJLu",
+    "ds_user_id":"61001153455",
+    "rur":"NCG\05461001153455\0541735378304:01f7380b50223680ba94835ee725525ca5b308d3caedc18587981b2906c5c56abcfd5545",
+    "shbid":"6417\05461001153455\0541735378300:01f7eff25bb5d487d3a020c9c5273582731b75bac5dc5461c3821c1bdb5cef8e78c3c169",
+    "shbts":"1703842300\05461001153455\0541735378300:01f7a35c1c66e721e445d2e3d4ba885a6706bacd896e8828b343d5e0d3fca59c5ada6c8a",
+    "sessionid":"61001153455%3Alop5URAxDJREFv%3A14%3AAYepyVrpQZAIB_aVy8PcmNW-p9qbnl4K1J541075Jw",
+    "dpr":"2",
+    "ig_did":	"1174CA5E-073C-48AF-A55B-A7AFBAD1380C",
+    "ig_nrcb":	"1",
+    "mid":	"ZY6RFAAEAAFogyH2gjw7Btl8xZxp",
+    "datr"	:"CpGOZVj0xWsQ5nz1Rv1N8y7r"
 }
 
 PARAMS = r'("app_id":\s*"[^"]+")|("claim":\s*"[^"]+")|("csrf_token":\s*"[^"]+")'
@@ -38,7 +38,7 @@ class Ins:
             'sec-ch-ua-full-version-list': '"Google Chrome";v="113.0.5672.63", "Chromium";v="113.0.5672.63", "Not-A.Brand";v="24.0.0.0"',
             'sec-fetch-site': 'same-origin',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+            'user-agent': 'Instagram 76.0.0.15.395 Android (24/7.0; 640dpi; 1440x2560; samsung; SM-G930F; herolte; samsungexynos8890; en_US; 138226743)',
             'viewport-width': '1536',
         }
         self.get_Header_params()
